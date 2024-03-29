@@ -1,0 +1,251 @@
+body{
+    overflow-x: hidden;
+}
+.header{
+    background:radial-gradient(#fff,#ffd6d6);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+.logocontainer{
+    width: 300px;
+}
+.logo{
+    width: 125px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+}
+nav ul a{
+        text-decoration: none;
+        color: black;
+    
+}
+.container{
+    max-width: 1200px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    margin:40px 40px;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+}
+.col1{
+    flex-basis: 32%;
+    align-items: center;
+    margin:auto 100px;
+    align-items: left;
+}
+.col2{
+    align-items: right;
+    flex-basis: 40%;
+    width: 400px;
+    height: 500px;
+}
+ .col1 a{
+    border-radius: 30px;
+    background-color: orange;
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 12px 25px;
+    margin: 5px 10px;
+   transition: background-color 0.5s;
+}
+.col1 a:hover{
+    background-color: rgba(165, 42, 42);
+}
+.col1 h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+.col3{
+    flex-basis:10% ;
+    margin:0px 50px;  
+}
+.col3 img{
+      width: 200px;
+      height: 180px;
+}
+.col4{
+    flex-basis: 20%;
+    margin:0px 20px;
+    transition: transform 0.5s;
+}
+.col4 img{
+    width: 250px;
+    height: 300px;
+}
+.title{
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    margin:0 auto 20px;
+}
+.title::after{
+    content: "";
+    position: absolute;
+    background-color: orange;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    left: 47%;
+    bottom: 0;
+    margin-top: 30px;
+    transform: translateX(-50%);
+
+}
+.rating .fa{
+    color: orange;
+}
+.col4:hover{
+    transform: translateY(-5px);
+}
+
+.col5 img{
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+}
+.col6 p{
+    font-size: smaller;
+}
+.offer{
+    background:radial-gradient(#fff,#ffd6d6);
+}
+.col6 a{
+    border-radius: 30px;
+    background-color: orange;
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 12px 25px;
+    margin: 5px 10px;
+   transition: background-color 0.5s;
+}
+.col6 a:hover{
+    background-color: brown;
+}
+.testimonal .col3{
+    text-align: center;
+    padding-top: 40px 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0,0,0.1);
+    transition: tranform 0.5s;
+    width: 200px;
+}
+.testimonal img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    display: block;
+    padding-top: 15px;
+}
+.testimonal .col3:hover{
+   
+    transform: scale(1.2);
+}
+.fa-quote-left{
+    color: orange;
+}
+.brands .col5 img{
+         width: 80px;
+         height: 40px;
+         cursor: pointer;
+         filter: grayscale(90%);
+}
+.brands .col5 img:hover{
+    filter: grayscale(0%);
+    transform: scale(2);
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.footer img{
+    width:130px;
+    height: 45px;
+    padding: 30px 10px;
+}
+.row1{
+    margin: 0px 10px;
+    display: flex;
+    padding: 20px 30px 10px 5px;
+  
+}
+.footer ul{
+    list-style-type: none;
+}
+.footer ul li{
+    padding: 5px auto;
+}
+.footercol1{
+    flex-basis: 35%;
+    align-items: center;
+}
+.footercol2{
+    flex-basis: 25%;
+   margin-left: 30px;
+}
+.footercol2 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footercol3{
+    flex-basis: 20%;
+    padding:  30px;
+   text-align: center;
+   margin: auto 30px;
+}
+.footercol4{
+    flex-basis: 20%;
+    text-align: center;
+    align-items: center;
+    padding:  30px;
+    margin: auto 30px;
+}
+.footer h4{
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row select{
+    position: absolute;
+    top: 150px;
+    right: 80px;
+
+}
+.row h3{
+    align-items: left;
+}
+.bottom{
+    color: black;
+    margin: 20px 100px ;
+    cursor: pointer;
+}
+.bottom span{
+    border: 1px solid red;
+    padding: 2px 5px;
+    margin-right: 2px;
+}
+.bottom span:hover{
+    background-color: orange;
+}
+
+
+
